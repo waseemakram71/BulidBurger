@@ -1,0 +1,563 @@
+
+*{
+  box-sizing:border-box;
+}
+.main-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -20px;
+}
+.upper-div{
+  background: linear-gradient(#bc581e, #e27b36);
+  width: 350px;
+  height: 70px;
+  border-top-left-radius: 60%;
+  border-top-right-radius: 60%;
+  box-shadow: inset -15px 0 #c15711;
+  
+}
+.container{
+color: #fff;
+display: flex;
+justify-content: space-between;
+margin: 10px;
+}
+.bottom-div{
+  
+  width: 350px;
+  height: 50px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: linear-gradient(#f08e4a, #e27b36);
+  box-shadow: inset -15px 0 #c15711;
+}
+.paragraph{
+  display: flex;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  padding-bottom: 5px;
+
+}
+/* .salad{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.bacon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cheeze{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.meat{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+
+
+
+.ingredient {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px; /* Add some spacing between ingredient sections */
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+}
+
+
+.main{
+  background-color:#c17116;
+  padding-top:50px;
+  margin-top:90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.one{
+ width:30px;
+ height:10px;
+ border: 2px solid white;
+ background:white;
+ margin-top:30px;
+ border-radius:50%;
+ transform: rotate(45deg);
+ 
+ box-shadow: inset -2px -1px 0 #c9c9c9;
+}
+.two{
+  width:30px;
+  height:12px;
+  border: 2px solid white;
+  background:white;
+  margin-top:20px;
+  border-radius:50%;
+  transform: rotate(-20deg);
+  box-shadow: inset -2px -1px 0 #c9c9c9;
+ }
+ .three{
+  width:30px;
+  height:12px;
+  border: 2px solid white;
+  background:white;
+  margin-top:40px;
+  border-radius:50%;
+  transform: rotate(-15deg);
+  box-shadow: inset -2px -1px 0 #c9c9c9;
+ }
+ .four{
+  width:30px;
+  height:12px;
+  border: 2px solid white;
+  background:white;
+  margin-top:20px;
+  border-radius:50%;
+  transform: rotate(-20deg);
+  box-shadow: inset -2px -1px 0 #c9c9c9;
+ }
+ .five{
+  width:30px;
+  height:12px;
+  border: 2px solid white;
+  background:white;
+  margin-top:15px;
+  border-radius:50%;
+  transform: rotate(45deg);
+  box-shadow: inset -2px -1px 0 #c9c9c9;
+ }
+/* Your existing CSS rules */
+
+.link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 78px;
+  /* Center horizontally */
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+/* Add this new rule */
+.signin-button {
+  width: 100%; /* Make the button take full width */
+}
+
+ .nav {
+  background: hsl(37, 83%, 30%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Vertically center the content */
+  padding: 10px 20px; /* Add padding to the navbar */
+}
+
+.links {
+  display: flex;
+  gap:10px;
+  
+
+
+}
+.nav-link{
+  display:flex;
+  text-decoration: none;
+  color:#fff;
+  
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000; 
+  background:#fff;
+}
+
+
+.logo-image {
+  width: 50px; 
+  height: auto; 
+  margin-right: 10px; 
+}
+h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+.main-sign{
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fffb
+}
+.sign{
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: -5px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  width:300px;
+  box-sizing: border-box;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.email{
+  display: flex;
+  flex-direction: column;
+}
+.password{
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin-bottom: 8px;
+  color: #333;
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+.btn {
+  padding: 10px 20px;
+  background-color: #2482e8;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+.btn:hover {
+  background-color: #0b3a69;
+  
+}
+h2{
+ margin-right: 20px;
+}
+.btn-ing1,
+.btn-ing2 {
+  width: 80px; /* Adjusted button width */
+  height: 30px; /* Adjusted button height */
+  font-size: 12px; /* Adjusted font size */
+}
+.btn-ing1 {
+  background-color: #bc581e;
+  margin-right: 10px;
+}
+
+.btn-ing2 {
+  background-color: #9c9b9b;
+}
+  .success{
+    color: #086314;
+    font-style: italic;
+    font-weight: 700;
+
+  }
+  /* Css for DataCount */
+
+
+  .data-count-container {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+  }
+  
+  .ingredients-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .ingredients-list li {
+    margin-bottom: 5px;
+  }
+  
+  .total-price {
+    margin-top: 20px;
+  }
+  
+  .shipping-info form {
+    margin-top: 20px;
+  }
+  
+  .shipping-info label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .shipping-info input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .shipping-info button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .shipping-info button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 4px;
+  }
+
+  .checkout-container {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    height: 100vh; /* Set the container height to fill the viewport */
+    background-color: #f0f0f0; /* Set a background color */
+  }
+  
+  /* Your existing CSS styles for the rest of the content */
+  /* .ingredient-divs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px; 
+  } */
+  
+  .ingredient-div {
+   
+    margin: 2px; 
+    border-radius: 5px;
+  }
+
+
+  
+  /* Cart.css */
+
+.cart-container {
+  display: flex;
+  flex-direction: column; /* Changed to column layout */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart-items {
+  padding-right: 20px;
+  margin-bottom: 20px; /* Added margin at the bottom */
+}
+
+.cart-summary {
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px; /* Added margin at the top */
+}
+
+.cart-summary h2 {
+  margin-bottom: 10px;
+}
+
+.cart-summary p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.checkout-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.checkout-button:hover {
+  background-color: #0056b3;
+}
+
+.ingredient-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 10px;
+}
+
+.ingredient-box {
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.ingredient-name {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.ingredient-quantity {
+  color: #777;
+  font-size: 12px;
+}
+
+  
+  /* ... Your existing CSS ... */
+
+.button-container {
+  display: flex;
+  gap: 10px; /* Add space between the buttons */
+  margin-top: 20px; /* Add some margin at the top */
+}
+
+.cancel-button {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cancel-button:hover {
+  background-color: darkred;
+}
+
+.continue-button {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.continue-button:hover {
+  background-color: darkgreen;
+}
+
+
+
+
+/* ... Your existing CSS ... */
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 600px) {
+  .main-container {
+    margin-bottom: 0; /* Adjust margin for smaller screens */
+  }
+  
+  .upper-div {
+    height: 50px; /* Reduce the height of the upper div */
+  }
+  
+  .burger-patty {
+    display: none; /* Hide the burger patty dividers for smaller screens */
+  }
+  
+  .bottom-div {
+    height: 30px; /* Reduce the height of the bottom div */
+  }
+  
+  .ingredient {
+    flex-direction: column; /* Stack the ingredient buttons vertically */
+    align-items: center;
+  }
+  
+  .btn-container {
+    flex-direction: column; /* Stack the buttons vertically */
+    margin-top: 10px; /* Add spacing between buttons */
+  }
+  
+  .paragraph {
+    text-align: center;
+    margin-bottom: 10px; /* Add more space below the paragraph */
+  }
+  
+  .ingredient-heading h2 {
+    font-size: 18px; /* Increase font size for ingredient headings */
+    margin-bottom: 5px;
+  }
+  
+  .btn-ing1,
+  .btn-ing2 {
+    width: 100%; /* Make buttons take full width on mobile */
+    margin-top: 5px; /* Add spacing between buttons */
+  }
+  
+  .button-container {
+    flex-direction: column; /* Stack buttons vertically */
+    margin-top: 20px;
+  }
+  
+  /* Cart.css */
+  
+  .cart-summary {
+    padding: 10px; /* Reduce padding */
+  }
+  
+  .cart-summary h2 {
+    font-size: 16px; /* Decrease font size for headings */
+  }
+  
+  .cart-summary p {
+    font-size: 14px; /* Decrease font size for price */
+  }
+  
+  .checkout-button {
+    font-size: 14px; /* Decrease font size for button text */
+    padding: 8px 16px; /* Reduce button padding */
+  }
+  
+  .ingredient-box {
+    padding: 6px; /* Reduce padding */
+    font-size: 12px; /* Decrease font size for ingredient details */
+  }
+  
+  /* ... Other CSS rules ... */
+}
